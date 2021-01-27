@@ -18,27 +18,8 @@
   color: #2e363e;
 }
 
-.nav__link span {
-  background-color: tomato;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  position: absolute;
-}
-
 .nav__notification {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  color: white;
+  position: absolute;
   left: 20px;
   bottom: 15px;
-}
-
-.nav__update-otification {
-  width: 5px;
-  height: 5px;
-  border-radius: 2.5px;
-  left: 30px;
 }

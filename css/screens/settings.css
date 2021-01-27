@@ -1,0 +1,35 @@
+.settings-screen ul,
+.settings__setting {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.settings-public-list {
+  padding-bottom: 30px;
+}
+
+.settings-privacy-list {
+  padding-top: 30px;
+}
+
+.settings__setting {
+  padding: 20px 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.settings__setting-column span + i {
+  font-size: 18px;
+  color: tomato;
+}

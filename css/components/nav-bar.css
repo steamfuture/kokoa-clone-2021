@@ -18,8 +18,16 @@
   color: #2e363e;
 }
 
-.nav__notification {
+.nav__link span {
   position: absolute;
+}
+
+.nav__notification {
   left: 20px;
   bottom: 15px;
+}
+
+.nav__update-notification {
+  left: 30px;
+  bottom: 30px;
 }

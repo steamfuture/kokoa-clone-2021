@@ -18,3 +18,14 @@
 .screen-header__icons span {
   margin-left: 20px;
 }
+
+.screen-header__update-notifications {
+  position: absolute;
+  background-color: tomato;
+  left: 65px;
+  bottom: 20px;
+}
+
+.test {
+  left: 110px;
+}

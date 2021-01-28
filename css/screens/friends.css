@@ -4,8 +4,7 @@
   background-color: #fafafa;
   padding: 15px 0px;
   font-size: 18px;
-  margin-bottom: 15px;
-  margin-top: -15px;
+  margin-top: 85px;
 }
 
 #friends-display-link i {
@@ -13,6 +12,7 @@
 }
 
 .friends-screen {
+  margin-top: 10px;
   padding: 0px var(--horizontal-space);
 }
 
@@ -29,4 +29,28 @@
   display: flex;
   justify-content: space-between;
   color: var(--gray);
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 122px;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 2s;
 }

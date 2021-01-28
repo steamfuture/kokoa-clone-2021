@@ -1,9 +1,13 @@
 .screen-header {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  background-color: white;
+  box-sizing: border-box;
 }
 
 .screen-header__title {
@@ -13,6 +17,8 @@
 
 .screen-header__icons {
   position: relative;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .screen-header__icons span {
@@ -24,4 +30,17 @@
   background-color: tomato;
   left: 65px;
   bottom: 20px;
+}
+
+@keyframes ratateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: ratateCog 1s linear infinite;
 }

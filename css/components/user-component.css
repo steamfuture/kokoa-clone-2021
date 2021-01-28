@@ -8,11 +8,20 @@
   align-items: center;
 }
 
+.user-component:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.user-component__column {
+  padding-right: 7px;
+}
+
 .user-component__avatar {
   width: 70px;
   height: 70px;
   border-radius: 27px;
   margin-right: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin-left: 5px;
 }
 
 .user-component__title {
@@ -56,7 +65,7 @@
 .user-component__list {
   padding: 10px 0px;
 }
-/* 
+
 .user-component__list:hover {
   background-color: rgba(0, 0, 0, 0.04);
-} */
+}
